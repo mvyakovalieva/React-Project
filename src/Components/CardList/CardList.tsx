@@ -2,7 +2,7 @@ import Card from '../Card/Card'
 
 interface Props {}
 
-const CardList = (props: Props) => {
+const CardList: React.FC<Props> = (props: Props): JSX.Element => {
   return (
     <div>
         <Card name="Racoon" price={100} description="This is a cool racoon!" img="https://www.thebiggreenk.com/wp-content/uploads/2024/06/shutterstock_1008277312-e1585927638827.jpg"/>
